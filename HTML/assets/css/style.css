@@ -1,0 +1,21 @@
+.menu1
+{
+    display: flex;
+}
+
+.home{
+    color: brown;
+}
+
+#contato{
+    color: rgba(30, 184, 10, 0.61);
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
