@@ -1,0 +1,62 @@
+/* css index */
+body {
+  background-image: url("https://i.imgur.com/mp36sJa.jpg");
+}
+
+.page{
+    background-color: aliceblue;
+    margin-top: 80px;
+}
+
+.pageHeader{
+    font-size: 35px;
+    padding-left: 50px;
+}
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+  }
+
+  .acessoR{
+      color: black;
+      font-size: 24px;
+  }
+
+  .hist{
+      padding-left: 80px;
+  }
+
+.tamanho{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+    align-items: center;
+}
+/* css index */
+
+/* css personagens */
+
+.tamanhoSolo{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    align-items: flex-end;
+}
+
+/* css personagens */
+
+/* css contato */
+
+.formulario{
+    padding-left: 50px;
+}
+
+/* css contato */

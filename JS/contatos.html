@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/Fallout-1-icon.png">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="pageHeader">Página inicial</div>
+
+        <div class="button1">
+            <p class="acessoR">Acesso rápido</p>
+            <a href="index.html"> <button>Home</button></a>
+            <a href="personagens.html"> <button>Personagens</button></a>
+            <a href="contatos.html"> <button>Contatos</button></a>
+        </div>
+
+
+        <div>
+            <div class="formulario">
+                <form>
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nome" onkeyup="validarNome()">
+                    <div id="txtNome"></div>
+                    <br>
+                    <label for="nome">E-mail:</label> <br>
+                    <input type="email" id="email" onkeyup="validarEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
+                    <label for="assunto">Assunto:</label> <br>
+                    <textarea type="assunto" id="assunto" cols="60" rows="5" onkeyup="validarAssunto()"></textarea>
+                    <div id="txtAssunto"></div>
+                    <br>
+                    <br>
+                    <button onclick="enviar()">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+
+        <h1 style="text-align: center;">Nome: Augusto Cesar da Silva Luis</h1><br>
+        <div style="text-align: center;">
+            <img src="https://i.imgur.com/jbxGh0x.jpeg" alt="">
+        </div>
+
+        <div style="font-family:courier;text-align:center;">
+
+            <hr>
+
+            <details> Página feita na primeira aula de HTML da Generation Brasil!</details>
+
+            <footer>
+                <p>Desenvolvido por Augusto Cesar</p>
+                <p>Copyright &copy; 2022</p>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="assets/javascript/script.js"></script>
+
+</body>
+
+</html>
